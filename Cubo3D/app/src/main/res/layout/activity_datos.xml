@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_marginHorizontal="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese los datos de 3 VECTORES"
+        android:textSize="20dp"
+        android:id="@+id/intro"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primero"
+        android:textSize="20dp"
+        android:id="@+id/Uno"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/vector1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="X primer vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Y primer vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector1_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Z primer vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segundo"
+        android:textSize="20dp"
+        android:id="@+id/Dos"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/vector2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="X segundo vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Y segundo vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Z segundo vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tercero"
+        android:textSize="20dp"
+        android:id="@+id/Tres"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/vector3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="X tercerp vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Y tercero vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/vector3_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Z tercero vector"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:background="#01579b"
+        android:textColor="@color/white"
+        android:text="GENERAR"
+        android:layout_marginBottom="20px"
+        android:drawableLeft="@drawable/ic_launcher_foreground"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="372dp"
+        android:layout_height="30dp"
+        android:background="#78909c  "
+
+        android:layout_marginBottom="20px"
+        android:textColor="@color/white"
+        android:text="Ejemplo muestra" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="372dp"
+        android:layout_height="30dp"
+        android:background="#78909c  "
+        android:textColor="@color/white"
+        android:layout_marginBottom="20px"
+        android:text="Datos del alumno" />
+
+</LinearLayout>
